@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "closure #1 in PlayerManager.playCurrent():PlayerManager.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "playedSongsManager">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #3 in MusicLibraryView.listView.getter:MusicLibraryView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "selectedTrack">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

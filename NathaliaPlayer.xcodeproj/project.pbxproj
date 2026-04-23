@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A4AF9F1A2F9970D200022F53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CEC0322F93EF7200E1ECB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CEC0392F93EF7200E1ECB2;
+			remoteInfo = NathaliaPlayer;
+		};
+		D6CEC0572F93EF7300E1ECB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6CEC0322F93EF7200E1ECB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6CEC0392F93EF7200E1ECB2;
+			remoteInfo = MoisesPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A4AF9F732F999C8200022F53 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CEC0972F93F12700E1ECB2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A4AF9F162F9970D200022F53 /* NathaliaPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NathaliaPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CEC03A2F93EF7200E1ECB2 /* NathaliaPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NathaliaPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CEC0562F93EF7300E1ECB2 /* NathaliaPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NathaliaPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CEC06B2F93F12500E1ECB2 /* NathaliaWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NathaliaWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A4AF9FCB2F99B7E400022F53 /* Exceptions for "NathaliaPlayer" folder in "NathaliaPlayerTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Core/Extensions/Double+Extension.swift",
+				"Core/Extensions/String+Extension.swift",
+				Core/Network/Clients/URLSessionNetworkClient.swift,
+				Core/Network/Enums/HTTPMethod.swift,
+				Core/Network/Enums/NetworkError.swift,
+				Core/Network/Models/Endpoint.swift,
+				Core/Network/Protocols/APIService.swift,
+				Core/Network/Protocols/NetworkClient.swift,
+				Core/PersistentData/PersistedTrackModel.swift,
+				Core/PersistentData/PlayedSongsManager.swift,
+				Core/Player/PlayerManager.swift,
+				Core/Player/RepeatMode.swift,
+				DesignSystem/Components/DSButton.swift,
+				DesignSystem/Components/DSIconCircleButton.swift,
+				DesignSystem/Components/DSImage.swift,
+				DesignSystem/Components/DSRowContainer.swift,
+				DesignSystem/Components/DSText.swift,
+				DesignSystem/Tokens/DSButtonSize.swift,
+				DesignSystem/Tokens/DSColors.swift,
+				DesignSystem/Tokens/DSImageSize.swift,
+				DesignSystem/Tokens/DSRadius.swift,
+				DesignSystem/Tokens/DSSpacing.swift,
+				DesignSystem/Tokens/DSTypography.swift,
+				Features/Models/AlbumModel.swift,
+				Features/Models/TrackModel.swift,
+				Features/ViewModels/AlbumDetail/AlbumDetailViewModel.swift,
+				Features/ViewModels/MusicLibrary/MusicLibraryViewModel.swift,
+				Features/ViewModels/TrackPlayer/TrackPlayerViewModel.swift,
+				Services/ITunesSearch/ITunesSearchService.swift,
+				Services/ITunesSearch/ITunesServiceConfig.swift,
+				Services/ITunesSearch/Response/ITunesLookupItem.swift,
+				Services/ITunesSearch/Response/ITunesLookupResponse.swift,
+				Services/ITunesSearch/Response/ITunesResponse.swift,
+				Services/ITunesSearch/Response/TrackDTO.swift,
+				Services/MusicServiceManager.swift,
+				Services/Protocols/SearchMusicServiceProtocol.swift,
+			);
+			target = A4AF9F152F9970D200022F53 /* NathaliaPlayerTests */;
+		};
+		D6CEC1452F9461C100E1ECB2 /* Exceptions for "NathaliaPlayer" folder in "NathaliaPlayer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D6CEC0392F93EF7200E1ECB2 /* NathaliaPlayer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A4AF9F172F9970D200022F53 /* NathaliaPlayerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NathaliaPlayerTests;
+			sourceTree = "<group>";
+		};
+		D6CEC03C2F93EF7200E1ECB2 /* NathaliaPlayer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D6CEC1452F9461C100E1ECB2 /* Exceptions for "NathaliaPlayer" folder in "NathaliaPlayer" target */,
+				A4AF9FCB2F99B7E400022F53 /* Exceptions for "NathaliaPlayer" folder in "NathaliaPlayerTests" target */,
+			);
+			path = NathaliaPlayer;
+			sourceTree = "<group>";
+		};
+		D6CEC0592F93EF7300E1ECB2 /* NathaliaPlayerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NathaliaPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4AF9F132F9970D200022F53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CEC0372F93EF7200E1ECB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CEC0532F93EF7300E1ECB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6CEC0312F93EF7200E1ECB2 = {
+			isa = PBXGroup;
+			children = (
+				D6CEC03C2F93EF7200E1ECB2 /* NathaliaPlayer */,
+				D6CEC0592F93EF7300E1ECB2 /* NathaliaPlayerUITests */,
+				A4AF9F172F9970D200022F53 /* NathaliaPlayerTests */,
+				D6CEC03B2F93EF7200E1ECB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6CEC03B2F93EF7200E1ECB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6CEC03A2F93EF7200E1ECB2 /* NathaliaPlayer.app */,
+				D6CEC0562F93EF7300E1ECB2 /* NathaliaPlayerUITests.xctest */,
+				D6CEC06B2F93F12500E1ECB2 /* NathaliaWatch.app */,
+				A4AF9F162F9970D200022F53 /* NathaliaPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4AF9F152F9970D200022F53 /* NathaliaPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4AF9F1C2F9970D200022F53 /* Build configuration list for PBXNativeTarget "NathaliaPlayerTests" */;
+			buildPhases = (
+				A4AF9F122F9970D200022F53 /* Sources */,
+				A4AF9F132F9970D200022F53 /* Frameworks */,
+				A4AF9F142F9970D200022F53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4AF9F1B2F9970D200022F53 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A4AF9F172F9970D200022F53 /* NathaliaPlayerTests */,
+			);
+			name = NathaliaPlayerTests;
+			packageProductDependencies = (
+			);
+			productName = NathaliaPlayerTests;
+			productReference = A4AF9F162F9970D200022F53 /* NathaliaPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6CEC0392F93EF7200E1ECB2 /* NathaliaPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CEC0602F93EF7300E1ECB2 /* Build configuration list for PBXNativeTarget "NathaliaPlayer" */;
+			buildPhases = (
+				D6CEC0362F93EF7200E1ECB2 /* Sources */,
+				D6CEC0372F93EF7200E1ECB2 /* Frameworks */,
+				D6CEC0382F93EF7200E1ECB2 /* Resources */,
+				A4AF9F732F999C8200022F53 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D6CEC03C2F93EF7200E1ECB2 /* NathaliaPlayer */,
+			);
+			name = NathaliaPlayer;
+			packageProductDependencies = (
+			);
+			productName = MoisesPlayer;
+			productReference = D6CEC03A2F93EF7200E1ECB2 /* NathaliaPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6CEC0552F93EF7300E1ECB2 /* NathaliaPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CEC0662F93EF7300E1ECB2 /* Build configuration list for PBXNativeTarget "NathaliaPlayerUITests" */;
+			buildPhases = (
+				D6CEC0522F93EF7300E1ECB2 /* Sources */,
+				D6CEC0532F93EF7300E1ECB2 /* Frameworks */,
+				D6CEC0542F93EF7300E1ECB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6CEC0582F93EF7300E1ECB2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D6CEC0592F93EF7300E1ECB2 /* NathaliaPlayerUITests */,
+			);
+			name = NathaliaPlayerUITests;
+			packageProductDependencies = (
+			);
+			productName = MoisesPlayerUITests;
+			productReference = D6CEC0562F93EF7300E1ECB2 /* NathaliaPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D6CEC06A2F93F12500E1ECB2 /* NathaliaWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6CEC0982F93F12700E1ECB2 /* Build configuration list for PBXNativeTarget "NathaliaWatch" */;
+			buildPhases = (
+				D6CEC0692F93F12500E1ECB2 /* Resources */,
+				D6CEC0972F93F12700E1ECB2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NathaliaWatch;
+			packageProductDependencies = (
+			);
+			productName = MoisesWatch;
+			productReference = D6CEC06B2F93F12500E1ECB2 /* NathaliaWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6CEC0322F93EF7200E1ECB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					A4AF9F152F9970D200022F53 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = D6CEC0392F93EF7200E1ECB2;
+					};
+					D6CEC0392F93EF7200E1ECB2 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					D6CEC0552F93EF7300E1ECB2 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = D6CEC0392F93EF7200E1ECB2;
+					};
+					D6CEC06A2F93F12500E1ECB2 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = D6CEC0352F93EF7200E1ECB2 /* Build configuration list for PBXProject "NathaliaPlayer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6CEC0312F93EF7200E1ECB2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D6CEC03B2F93EF7200E1ECB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6CEC0392F93EF7200E1ECB2 /* NathaliaPlayer */,
+				D6CEC0552F93EF7300E1ECB2 /* NathaliaPlayerUITests */,
+				D6CEC06A2F93F12500E1ECB2 /* NathaliaWatch */,
+				A4AF9F152F9970D200022F53 /* NathaliaPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4AF9F142F9970D200022F53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CEC0382F93EF7200E1ECB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CEC0542F93EF7300E1ECB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CEC0692F93F12500E1ECB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4AF9F122F9970D200022F53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CEC0362F93EF7200E1ECB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6CEC0522F93EF7300E1ECB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4AF9F1B2F9970D200022F53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CEC0392F93EF7200E1ECB2 /* NathaliaPlayer */;
+			targetProxy = A4AF9F1A2F9970D200022F53 /* PBXContainerItemProxy */;
+		};
+		D6CEC0582F93EF7300E1ECB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6CEC0392F93EF7200E1ECB2 /* NathaliaPlayer */;
+			targetProxy = D6CEC0572F93EF7300E1ECB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A4AF9F1D2F9970D200022F53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LZ9TB2L5R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathrrsantos.NathaliaPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NathaliaPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NathaliaPlayer";
+			};
+			name = Debug;
+		};
+		A4AF9F1E2F9970D200022F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LZ9TB2L5R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathrrsantos.NathaliaPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NathaliaPlayer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NathaliaPlayer";
+			};
+			name = Release;
+		};
+		D6CEC05E2F93EF7300E1ECB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6CEC05F2F93EF7300E1ECB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6CEC0612F93EF7300E1ECB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LZ9TB2L5R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NathaliaPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathrrsantos.NathaliaPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6CEC0622F93EF7300E1ECB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LZ9TB2L5R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NathaliaPlayer/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathrrsantos.NathaliaPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6CEC0672F93EF7300E1ECB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LZ9TB2L5R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathrrsantos.NathaliaPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NathaliaPlayer;
+			};
+			name = Debug;
+		};
+		D6CEC0682F93EF7300E1ECB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LZ9TB2L5R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathrrsantos.NathaliaPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NathaliaPlayer;
+			};
+			name = Release;
+		};
+		D6CEC0992F93F12700E1ECB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LZ9TB2L5R;
+				INFOPLIST_KEY_CFBundleDisplayName = NathaliaWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathrrsantos.NathaliaWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		D6CEC09A2F93F12700E1ECB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3LZ9TB2L5R;
+				INFOPLIST_KEY_CFBundleDisplayName = NathaliaWatch;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nathrrsantos.NathaliaWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4AF9F1C2F9970D200022F53 /* Build configuration list for PBXNativeTarget "NathaliaPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4AF9F1D2F9970D200022F53 /* Debug */,
+				A4AF9F1E2F9970D200022F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CEC0352F93EF7200E1ECB2 /* Build configuration list for PBXProject "NathaliaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CEC05E2F93EF7300E1ECB2 /* Debug */,
+				D6CEC05F2F93EF7300E1ECB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CEC0602F93EF7300E1ECB2 /* Build configuration list for PBXNativeTarget "NathaliaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CEC0612F93EF7300E1ECB2 /* Debug */,
+				D6CEC0622F93EF7300E1ECB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CEC0662F93EF7300E1ECB2 /* Build configuration list for PBXNativeTarget "NathaliaPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CEC0672F93EF7300E1ECB2 /* Debug */,
+				D6CEC0682F93EF7300E1ECB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6CEC0982F93F12700E1ECB2 /* Build configuration list for PBXNativeTarget "NathaliaWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6CEC0992F93F12700E1ECB2 /* Debug */,
+				D6CEC09A2F93F12700E1ECB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6CEC0322F93EF7200E1ECB2 /* Project object */;
+}
